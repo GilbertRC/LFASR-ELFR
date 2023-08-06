@@ -30,7 +30,7 @@ python train.py --train_dataset SIG --disp_range 1.5 --num_planes 32 --angular_i
 ```
 
 The training curve for *disp_thres* appears like:
-<div align=center>
+<div align=left>
 <img src="https://github.com/GilbertRC/LFASR-ELFR/blob/main/Figs/curve.png">
 </div>
 
