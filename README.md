@@ -3,7 +3,7 @@ This project provides the code for 'Enhanced Light Field Reconstruction by Combi
 
 ## Framework overview
 <div align=center>
-<img src="https://github.com/GilbertRC/LFSOD-CDINet/blob/main/Figs/Framework.png">
+<img src="https://github.com/GilbertRC/LFASR-ELFR/blob/main/Figs/Framework.png">
 </div>
 
 ## Requirements
