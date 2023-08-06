@@ -19,7 +19,7 @@ Note: The explicit-depth-based and implicit-depth-based pipelines adopt the basi
 2. 
 
 ## Test using pre-trained model
-1. 2x2&rarr;7x7 interpolation task
+### 2x2&rarr;7x7 interpolation task
 
 **For synthetic datasets (*HCI, HCI old and Inria DLFD*)**
 ```
