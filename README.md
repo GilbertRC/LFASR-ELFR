@@ -10,6 +10,7 @@ The code will come in soon.
 - Matlab (for data generation)
 
 ## Performance
+Our performance under the task 2x2&rarr;7x7 reconstruction:
 <div align=center>
   <img src="https://github.com/GilbertRC/LFASR-ELFR/blob/main/Figs/Table.png">
 </div>
