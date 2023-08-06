@@ -16,6 +16,11 @@ Note: The explicit-depth-based and implicit-depth-based pipelines adopt the basi
 
 ## Dataset
 
+## Test using pre-trained model
+**For synthetic LF data (HCI, HCI old and Inria DLFD)**
+```
+python test_HCI.py --model_dir pretrained_model --train_dataset HCI --disp_range 4 --num_planes 50 --input_ind 0 6 42 48 --crop 1
+```
 
 ## Performance
 Our performance under the 2x2&rarr;7x7 interpolation task:
