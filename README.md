@@ -18,9 +18,10 @@ Note: The explicit-depth-based and implicit-depth-based pipelines adopt the basi
 1. Download the TrainingSet & TestSet and put them under './LFData/' folder.
 2. 
 
-## Test using pre-trained model
-### 2x2&rarr;7x7 interpolation task
+## 2x2&rarr;7x7 interpolation task
+### Train
 
+### Test using pre-trained model
 **For synthetic datasets (*HCI, HCI old and Inria DLFD*)**
 ```
 python test_HCI.py --model_dir pretrained_model --train_dataset HCI --disp_range 4 --num_planes 50 --angular_in 2 --angular_out 7 --input_ind 0 6 42 48 --crop 1
