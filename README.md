@@ -1,7 +1,7 @@
 # LFASR-ELFR
 This project provides the code for 'Enhanced Light Field Reconstruction by Combining Disparity and Texture Information in PSVs via Disparity-Guided Fusion', IEEE TCI, 2023. [paper link](https://ieeexplore.ieee.org/document/10158790)
 
-## Framework overview
+## Framework Overview
 <div align=center>
 <img src="https://github.com/GilbertRC/LFASR-ELFR/blob/main/Figs/Framework.png">
 </div>
