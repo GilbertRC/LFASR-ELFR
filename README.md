@@ -8,3 +8,22 @@ The code will come in soon.
 - PyTorch=1.8.0  
 - scikit-image=0.14.2
 - Matlab (for data generation)
+
+## Performance
+<div align=center>
+  <img src="https://github.com/GilbertRC/LFASR-ELFR/blob/main/Figs/Table.png">
+</div>
+
+## Citation
+```
+@ARTICLE{LFASR-ELFR,  
+  title={Enhanced Light Field Reconstruction by Combining Disparity and Texture Information in PSVs via Disparity-Guided Fusion},
+  author={Yilei Chen and Xinpeng Huang and Ping An and Qiang Wu},
+  journal={IEEE Transactions on Computational Imaging},
+  year={2023},
+  volume={9},
+  pages={665-677}
+  month={Jul.}}            
+```
+
+Any questions regarding this work can contact yileichen@shu.edu.cn.
