@@ -15,10 +15,12 @@ Note: The explicit-depth-based and implicit-depth-based pipelines adopt the basi
 - Matlab (for data generation)
 
 ## Dataset
-1. Download the TrainingSet & TestSet and put them under './LFData/' folder.
-2. 
+1. Download the [TrainingSet](https://pan.baidu.com/s/1COZrlPgPcbyyp3737k2OCA) (code: 3f2x) and [TestSet](https://pan.baidu.com/s/1mvp954aeONOSmmKeOzq8og) (code: 6c31) and put them under './LFData/' folder.
+2. Run ''PrepareData_xxx.m'' to obtain .h5 file for training and test.
+3. Or download our generated .h5 file.
 
 ## Train
+**Synthetic datasets (*HCI, HCI old and Inria DLFD*), 2x2&rarr;7x7 interpolation**
 
 ## Test using pre-trained model
 **Synthetic datasets (*HCI, HCI old and Inria DLFD*), 2x2&rarr;7x7 interpolation**
