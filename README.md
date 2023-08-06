@@ -16,7 +16,7 @@ Note: The explicit-depth-based and implicit-depth-based pipelines adopt the basi
 
 ## Dataset
 1. Download the [TrainingSet](https://pan.baidu.com/s/1COZrlPgPcbyyp3737k2OCA) (code: 3f2x) and [TestSet](https://pan.baidu.com/s/1mvp954aeONOSmmKeOzq8og) (code: 6c31) and put them under './LFData/' folder.
-2. Run ''PrepareData_xxx.m'' to obtain .h5 file for training and test.
+2. Run `PrepareData_xxx.m` to generate .h5 file for training and test.
 3. Or download our generated .h5 file.
 
 ## Train
