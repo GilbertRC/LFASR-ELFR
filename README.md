@@ -17,13 +17,13 @@ Note: The explicit-depth-based and implicit-depth-based pipelines adopt the basi
 ## Dataset
 
 ## Test using pre-trained model
-**For real-world LF data (*30scenes, occlusions and reflective*)**
-```
-python test.py --model_dir pretrained_model --train_dataset SIG --disp_range 1.5 --num_planes 32 --input_ind 0 6 42 48 --crop 0
-```
-**For synthetic LF data (*HCI, HCI old and Inria DLFD*)**
+**For synthetic datasets (*HCI, HCI old and Inria DLFD*)**
 ```
 python test_HCI.py --model_dir pretrained_model --train_dataset HCI --disp_range 4 --num_planes 50 --input_ind 0 6 42 48 --crop 1
+```
+**For real-world datasets (*30scenes, occlusions and reflective*)**
+```
+python test.py --model_dir pretrained_model --train_dataset SIG --disp_range 1.5 --num_planes 32 --input_ind 0 6 42 48 --crop 0
 ```
 
 ## Performance
