@@ -5,6 +5,7 @@ This project provides the code for 'Enhanced Light Field Reconstruction by Combi
 <div align=center>
 <img src="https://github.com/GilbertRC/LFASR-ELFR/blob/main/Figs/Framework.png">
 </div>
+
 The explicit-depth-based and implicit-depth-based pipelines adopt the basic structure of [GA-Net](https://github.com/jingjin25/LFASR-geometry) and [MALFRNet](https://ieeexplore.ieee.org/document/9258385) (w/o their refinement), respectively.
 
 ## Requirements
