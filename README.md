@@ -18,7 +18,7 @@ Note: The explicit-depth-based and implicit-depth-based pipelines adopt the basi
 
 
 ## Performance
-Our performance under the task 2x2&rarr;7x7 reconstruction:
+Our performance under the 2x2&rarr;7x7 interpolation task:
 <div align=center>
   <img src="https://github.com/GilbertRC/LFASR-ELFR/blob/main/Figs/Table1.png">
 </div>
