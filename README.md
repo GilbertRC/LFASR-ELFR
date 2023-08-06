@@ -4,7 +4,7 @@ This project provides the code for 'Enhanced Light Field Reconstruction by Combi
 The code will come in soon.
 
 ## Requirements
-- Python==3.7  
-- PyTorch==1.8.0  
-- scikit-image==0.14.2
+- Python=3.7  
+- PyTorch=1.8.0  
+- scikit-image=0.14.2
 - Matlab (for data generation)
