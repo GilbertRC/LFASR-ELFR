@@ -19,7 +19,7 @@ Note: The explicit-depth-based and implicit-depth-based pipelines adopt the basi
 2. Run `PrepareData_xxx.m` to generate .h5 file for training and test.
 3. Or directly download our generated [.h5 file](https://pan.baidu.com/s/1JSAdFA2FPirndJ6HOOOGmQ) (code: sgca).
 
-## Train
+## Training
 **model_HCI for synthetic datasets, 2x2&rarr;7x7 interpolation**
 ```
 python train_HCI.py --train_dataset HCI --disp_range 4 --num_planes 50 --angular_in 2 --angular_out 7 --epoch 50000 --learning_rate 1e-4 --decay_rate 0.5 --decay_epoch 5000 --batch_size 1 --patch_size 64
