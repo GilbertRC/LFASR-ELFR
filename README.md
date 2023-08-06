@@ -12,7 +12,7 @@ Note: The explicit-depth-based and implicit-depth-based pipelines adopt the basi
 - Python=3.7  
 - PyTorch=1.8.0  
 - scikit-image=0.14.2
-- Matlab (for data generation)
+- Matlab (for .h5 file generation)
 
 ## Dataset
 1. Download the [TrainingSet](https://pan.baidu.com/s/1COZrlPgPcbyyp3737k2OCA) (code: 3f2x) and [TestSet](https://pan.baidu.com/s/1mvp954aeONOSmmKeOzq8og) (code: 6c31) and put them under './LFData/' folder.
