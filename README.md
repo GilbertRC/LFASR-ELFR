@@ -17,10 +17,22 @@ Note: The explicit-depth-based and implicit-depth-based pipelines adopt the basi
 ## Dataset
 1. Download the [TrainingSet](https://pan.baidu.com/s/1COZrlPgPcbyyp3737k2OCA) (code: 3f2x) and [TestSet](https://pan.baidu.com/s/1mvp954aeONOSmmKeOzq8og) (code: 6c31) and put them under './LFData/' folder.
 2. Run `PrepareData_xxx.m` to generate .h5 file for training and test.
-3. Or download our generated .h5 file.
+3. Or directly download our generated [.h5 file](https://pan.baidu.com/s/1JSAdFA2FPirndJ6HOOOGmQ) (code: sgca).
 
 ## Train
-**Synthetic datasets (*HCI, HCI old and Inria DLFD*), 2x2&rarr;7x7 interpolation**
+**Synthetic datasets (TrainingSet: *HCI*), 2x2&rarr;7x7 interpolation**
+```
+python train_HCI.py --train_dataset HCI --disp_range 4 --num_planes 50 --angular_in 2 --angular_out 7 --epoch 50000 --learning_rate 1e-4 --decay_rate 0.5 --decay_epoch 5000 --batch_size 1 --patch_size 64
+```
+**Real-world datasets (TrainingSet: *SIG*), 2x2&rarr;7x7 interpolation**
+```
+python train.py --train_dataset SIG --disp_range 1.5 --num_planes 32 --angular_in 2 --angular_out 7 --epoch 10000 --learning_rate 1e-4 --decay_rate 0.5 --decay_epoch 1000 --batch_size 1 --patch_size 64
+```
+
+The training curve for *disp_thres* appears like:
+<div align=center>
+<img src="https://github.com/GilbertRC/LFASR-ELFR/blob/main/Figs/curve.png">
+</div>
 
 ## Test using pre-trained model
 **Synthetic datasets (*HCI, HCI old and Inria DLFD*), 2x2&rarr;7x7 interpolation**
