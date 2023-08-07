@@ -58,7 +58,7 @@ Our performance under the 2x2&rarr;7x7 interpolation task:
   journal={IEEE Transactions on Computational Imaging},
   year={2023},
   volume={9},
-  pages={665-677}
+  pages={665-677},
   month={Jul.}}            
 ```
 
